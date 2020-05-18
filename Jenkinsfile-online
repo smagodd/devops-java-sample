@@ -10,14 +10,14 @@ pipeline {
     }
 
     environment {
-        DOCKER_CREDENTIAL_ID = 'dhd'
-        GITHUB_CREDENTIAL_ID = 'gd'
-        KUBECONFIG_CREDENTIAL_ID = 'kc'
+        DOCKER_CREDENTIAL_ID = 'dh'
+        GITHUB_CREDENTIAL_ID = 'gh'
+        KUBECONFIG_CREDENTIAL_ID = 'kd'
         REGISTRY = 'docker.io'
         DOCKERHUB_NAMESPACE = 'smagodd'
         GITHUB_ACCOUNT = 'smagodd'
         APP_NAME = 'devops-java-sample'
-        SONAR_CREDENTIAL_ID = 'sonar-token'
+        SONAR_CREDENTIAL_ID = 'sh'
     }
 
     stages {
